@@ -1,0 +1,45 @@
+{
+  "status": "OK",
+  "request_id": "test-request-id",
+  "data": [
+    {
+      "job_id": "abc123",
+      "job_title": "Medical Biller (Part-Time)",
+      "employer_name": "Towson Family Practice",
+      "job_apply_link": "https://example.com/apply/abc123",
+      "job_city": "Towson",
+      "job_state": "MD",
+      "job_country": "US",
+      "job_is_remote": false,
+      "job_employment_type": "PARTTIME",
+      "job_posted_at_datetime_utc": "2026-05-08T14:00:00.000Z",
+      "job_description": "Small primary-care office seeking experienced medical biller for 20 hours per week. Must know ICD-10 coding and insurance claims submission."
+    },
+    {
+      "job_id": "def456",
+      "job_title": "Payment Posting Specialist",
+      "employer_name": "RevCycle Solutions",
+      "job_apply_link": "https://example.com/apply/def456",
+      "job_city": null,
+      "job_state": null,
+      "job_country": "US",
+      "job_is_remote": true,
+      "job_employment_type": "PARTTIME",
+      "job_posted_at_datetime_utc": "2026-05-07T09:00:00.000Z",
+      "job_description": "Remote payment posting specialist needed part-time. Process EOBs and ERAs. Work from home 25 hours per week."
+    },
+    {
+      "job_id": "ghi789",
+      "job_title": "Medical Office Manager",
+      "employer_name": "Baltimore Health Group",
+      "job_apply_link": "https://example.com/apply/ghi789",
+      "job_city": "Baltimore",
+      "job_state": "MD",
+      "job_country": "US",
+      "job_is_remote": false,
+      "job_employment_type": "FULLTIME",
+      "job_posted_at_datetime_utc": "2026-05-06T10:00:00.000Z",
+      "job_description": "Full-time office manager needed to supervise billing staff and manage front desk operations. 40 hours per week required."
+    }
+  ]
+}

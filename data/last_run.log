@@ -1,0 +1,61 @@
+[2026-05-10T13:59:48Z] === Starting weekly job bot run ===
+[2026-05-10T13:59:48Z] JSearch fetcher enabled
+[2026-05-10T13:59:48Z] ADZUNA credentials not set — skipping Adzuna
+[2026-05-10T13:59:48Z] THEMUSE_API_KEY not set — skipping The Muse (optional)
+[2026-05-10T13:59:48Z] Remotive fetcher enabled (no auth required)
+[2026-05-10T13:59:48Z] Craigslist RSS fetcher enabled
+[2026-05-10T13:59:48Z] Rat Race Rebellion RSS fetcher enabled
+[2026-05-10T13:59:48Z] Fetching from JSearchFetcher...
+[2026-05-10T14:00:42Z]   JSearchFetcher: 98 raw results
+[2026-05-10T14:00:42Z] Fetching from RemotiveFetcher...
+[2026-05-10T14:00:43Z]   RemotiveFetcher: 240 raw results
+[2026-05-10T14:00:43Z] Fetching from CraigslistFetcher...
+[2026-05-10T14:00:43Z]   CraigslistFetcher: 0 raw results
+[2026-05-10T14:00:43Z] Fetching from RatRaceFetcher...
+[2026-05-10T14:00:44Z]   RatRaceFetcher: 0 raw results
+[2026-05-10T14:00:44Z] Total raw jobs fetched: 338
+[2026-05-10T14:00:44Z] After keyword/part-time filter: 50
+[2026-05-10T14:00:44Z] After dedup: 32 new jobs
+[2026-05-10T14:00:44Z] Digest built: Mom's Job Digest — 32 new listings — Sun May 10
+[2026-05-10T14:01:14Z] === Starting weekly job bot run ===
+[2026-05-10T14:01:14Z] JSearch fetcher enabled
+[2026-05-10T14:01:14Z] ADZUNA credentials not set — skipping Adzuna
+[2026-05-10T14:01:14Z] THEMUSE_API_KEY not set — skipping The Muse (optional)
+[2026-05-10T14:01:14Z] Remotive fetcher enabled (no auth required)
+[2026-05-10T14:01:14Z] Craigslist RSS fetcher enabled
+[2026-05-10T14:01:14Z] Rat Race Rebellion RSS fetcher enabled
+[2026-05-10T14:01:14Z] Fetching from JSearchFetcher...
+[2026-05-10T14:03:00Z]   JSearchFetcher: 88 raw results
+[2026-05-10T14:03:00Z] Fetching from RemotiveFetcher...
+[2026-05-10T14:03:01Z]   RemotiveFetcher: 240 raw results
+[2026-05-10T14:03:01Z] Fetching from CraigslistFetcher...
+[2026-05-10T14:03:01Z]   CraigslistFetcher: 0 raw results
+[2026-05-10T14:03:01Z] Fetching from RatRaceFetcher...
+[2026-05-10T14:03:01Z]   RatRaceFetcher: 0 raw results
+[2026-05-10T14:03:01Z] Total raw jobs fetched: 328
+[2026-05-10T14:03:01Z] After keyword/part-time filter: 46
+[2026-05-10T14:03:01Z] After dedup: 30 new jobs
+[2026-05-10T14:03:01Z] Digest built: Mom's Job Digest — 30 new listings — Sun May 10
+[2026-05-10T14:03:01Z] Email sent to chanel.johnson09@gmail.com
+[2026-05-10T14:03:01Z] === Run complete ===
+[2026-05-10T14:05:47Z] === Starting weekly job bot run ===
+[2026-05-10T14:05:47Z] JSearch fetcher enabled
+[2026-05-10T14:05:47Z] ADZUNA credentials not set — skipping Adzuna
+[2026-05-10T14:05:47Z] THEMUSE_API_KEY not set — skipping The Muse (optional)
+[2026-05-10T14:05:47Z] Remotive fetcher enabled (no auth required)
+[2026-05-10T14:05:47Z] Craigslist RSS fetcher enabled
+[2026-05-10T14:05:47Z] Rat Race Rebellion RSS fetcher enabled
+[2026-05-10T14:05:47Z] Fetching from JSearchFetcher...
+[2026-05-10T14:06:43Z]   JSearchFetcher: 98 raw results
+[2026-05-10T14:06:43Z] Fetching from RemotiveFetcher...
+[2026-05-10T14:06:44Z]   RemotiveFetcher: 240 raw results
+[2026-05-10T14:06:44Z] Fetching from CraigslistFetcher...
+[2026-05-10T14:06:44Z]   CraigslistFetcher: 0 raw results
+[2026-05-10T14:06:44Z] Fetching from RatRaceFetcher...
+[2026-05-10T14:06:45Z]   RatRaceFetcher: 0 raw results
+[2026-05-10T14:06:45Z] Total raw jobs fetched: 338
+[2026-05-10T14:06:45Z] After keyword/part-time filter: 49
+[2026-05-10T14:06:45Z] After dedup: 31 new jobs
+[2026-05-10T14:06:45Z] Digest built: Mom's Job Digest — 31 new listings — Sun May 10
+[2026-05-10T14:06:48Z] Email sent to fordjohnson2@msn.com
+[2026-05-10T14:06:48Z] === Run complete ===

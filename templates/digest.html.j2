@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: Arial, sans-serif; font-size: 15px; color: #222; max-width: 680px; margin: 0 auto; padding: 20px; }
+  h1 { font-size: 20px; border-bottom: 2px solid #333; padding-bottom: 8px; }
+  h2 { font-size: 16px; background: #f0f0f0; padding: 6px 10px; border-left: 4px solid #555; margin-top: 28px; }
+  .job { border-bottom: 1px solid #ddd; padding: 12px 0; }
+  .job-title { font-weight: bold; font-size: 16px; }
+  .job-meta { color: #555; font-size: 13px; margin: 3px 0 6px; }
+  .job-snippet { font-size: 14px; color: #333; margin-bottom: 6px; }
+  .apply-link a { display: inline-block; background: #1a6496; color: white; padding: 5px 14px;
+                  border-radius: 3px; text-decoration: none; font-size: 13px; }
+  .empty { color: #666; font-style: italic; }
+  .footer { margin-top: 36px; font-size: 12px; color: #999; border-top: 1px solid #ddd; padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<h1>Mom's Job Digest &mdash; {{ run_date }}</h1>
+
+<p>Hi Mom &mdash; here are this week's new part-time openings near Towson and remote.</p>
+
+{% if local_jobs %}
+<h2>TOWSON / BALTIMORE AREA ({{ local_jobs | length }})</h2>
+{% for job in local_jobs %}
+<div class="job">
+  <div class="job-title">{{ job.title }}</div>
+  <div class="job-meta">
+    {{ job.company }} &middot; {{ job.location }} &middot; {{ job.employment_type | replace('PARTTIME', 'Part-time') | replace('PART_TIME', 'Part-time') }}
+    {% if job.posted_at %} &middot; Posted {{ job.posted_at[:10] }}{% endif %}
+  </div>
+  <div class="job-snippet">&ldquo;{{ job.description_snippet }}&rdquo;</div>
+  <div class="apply-link"><a href="{{ job.url }}">Apply &rarr;</a></div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if remote_jobs %}
+<h2>REMOTE ({{ remote_jobs | length }})</h2>
+{% for job in remote_jobs %}
+<div class="job">
+  <div class="job-title">{{ job.title }}</div>
+  <div class="job-meta">
+    {{ job.company }} &middot; Remote &middot; {{ job.employment_type | replace('PARTTIME', 'Part-time') | replace('PART_TIME', 'Part-time') }}
+    {% if job.posted_at %} &middot; Posted {{ job.posted_at[:10] }}{% endif %}
+  </div>
+  <div class="job-snippet">&ldquo;{{ job.description_snippet }}&rdquo;</div>
+  <div class="apply-link"><a href="{{ job.url }}">Apply &rarr;</a></div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if not local_jobs and not remote_jobs %}
+<p class="empty">No new postings this week &mdash; the bot is still running, check back Monday.</p>
+{% endif %}
+
+<div class="footer">
+  Bot built with love by Chanel &middot; {{ total }} new listing{{ 's' if total != 1 else '' }} this week
+  &middot; Reply to this email if anything looks off.
+</div>
+
+</body>
+</html>
