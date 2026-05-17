@@ -38,5 +38,7 @@ def _is_part_time(job: Job) -> bool:
 def _is_local_or_remote(job: Job) -> bool:
     if job.is_remote:
         return True
+    if not job.location:
+        return False
     location = job.location.lower()
     return any(kw in location for kw in TOWSON_AREA_KEYWORDS)
