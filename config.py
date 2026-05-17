@@ -25,15 +25,18 @@ EXCLUDE_KEYWORDS = [
 
 TOWSON_AREA_KEYWORDS = [
     "towson",
+    "timonium",
     "lutherville",
     "cockeysville",
-    "timonium",
-    "parkville",
     "hunt valley",
+    "parkville",
     "pikesville",
-    "baltimore",
-    "md",
-    "maryland",
+    "white marsh",
+    "perry hall",
+    "rosedale",
+    "baltimore, md",
+    "baltimore,md",
+    "baltimore md",
 ]
 
 QUERIES = [
