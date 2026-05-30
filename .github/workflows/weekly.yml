@@ -2,8 +2,8 @@ name: Weekly Job Digest
 
 on:
   schedule:
-    # Mondays at 11:00 UTC = 7:00 AM ET (EST) / 8:00 AM ET (EDT)
-    - cron: "0 11 * * 1"
+    # Saturdays at 11:00 UTC = 7:00 AM ET (EST) / 8:00 AM ET (EDT)
+    - cron: "0 11 * * 6"
   workflow_dispatch:  # allow manual trigger from Actions tab
 
 env:

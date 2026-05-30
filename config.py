@@ -9,6 +9,10 @@ ROLE_KEYWORDS = [
     "customer service",
     "telephone",
     "call center",
+    "administrative assistant",
+    "office administrator",
+    "admin assistant",
+    "data entry",
 ]
 
 EXCLUDE_KEYWORDS = [
@@ -46,6 +50,10 @@ QUERIES = [
     "medical front desk receptionist part time",
     "medical file clerk",
     "medical office customer service part time",
+    "administrative assistant part time",
+    "office administrator part time",
+    "admin assistant part time",
+    "data entry part time",
 ]
 
 LOCATIONS = ["Towson, MD", "Remote"]
